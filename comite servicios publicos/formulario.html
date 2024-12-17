@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comité de Servicios Públicos</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body style="background-image: url('img/imagen\ 3.jpeg');
+background-size: cover;
+background-position: center;
+background-repeat: no-repeat;
+width: 100%;
+height: 600px;">
+
+    <header>
+        <h1>Comité de Servicios Públicos</h1>
+            <div class="button-container">
+                <a href="index.html"><button>Inicio</button></a>
+                <a href="info.html"><button>¿Qué somos?</button></a>
+                <a href="contacto.html"><button>Inscripción</button></a>
+            </div>
+    </header>
+
+    <div class="form-container">
+        <h2>Registro de Usuario</h2>
+        <select class="form-select" aria-label="Default select example">
+            <option selected>Tipo de documento</option>
+            <option value="1">Registro civil</option>
+            <option value="2">Tarjeta de identidad</option>
+            <option value="3">Cédula de ciudadanía</option>
+            <option value="4">Cédula de extranjería</option>
+            <option value="5">NIT</option>
+        </select>
+        <div class="mb-3">
+            <label for="numeroDocumento" class="form-label">Número de documento</label>
+            <input type="text" class="form-control" id="numeroDocumento" placeholder="574560982">
+        </div>
+        <div class="mb-3">
+            <label for="nombre" class="form-label">Nombre</label>
+            <input type="text" class="form-control" id="nombre" placeholder="Alejandro">
+        </div>
+        <div class="mb-3">
+            <label for="apellido" class="form-label">Apellido</label>
+            <input type="text" class="form-control" id="apellido" placeholder="Ramirez">
+        </div>
+        <div class="mb-3">
+            <label for="telefono" class="form-label">Teléfono</label>
+            <input type="text" class="form-control" id="telefono" placeholder="+57 3108887114">
+        </div>
+        <div class="mb-3">
+            <label for="correo" class="form-label">Correo</label>
+            <input type="email" class="form-control" id="correo" placeholder="juan@gmail.com">
+        </div>
+        <div class="mb-3">
+            <label for="direccion" class="form-label">Dirección</label>
+            <input type="text" class="form-control" id="direccion" placeholder="Dirección de vivienda">
+        </div>
+        <button class="btn" type="submit">Enviar</button>
+    </div>
+
+    <div class="boton-volver">
+        <a href="contacto.html"><button>Volver</button></a>
+    </div>
+</body>
+</html>
